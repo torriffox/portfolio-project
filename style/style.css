@@ -3,7 +3,7 @@
   --secondary-color: #272142;
   --backgroundcolor: #f9f7fe;
   --simple-color: #000000;
-  --light-color: #FFFFFF;
+  --light-color: #ffffff;
 
   --primary-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
@@ -15,11 +15,18 @@
 
 nav,
 h2,
-h6 {
+h6,
+p,
+.link-get-start,
+.link-view-detail-project,
+.work-inquiry-descr,
+.button-talk-here {
   font-family: var(--secondary-font-family);
 }
 
-h1 {
+h1,
+h3,
+h4 {
   font-family: var(--primary-font-family);
 }
 
@@ -38,6 +45,7 @@ nav {
 
 .section-navbar {
   color: var(--secondary-color) !important;
+  opacity: 70%;
 }
 
 .caption {
@@ -71,10 +79,104 @@ h6 {
 }
 
 .link-get-start {
-  
+  font-weight: 500;
+  font-size: 18px;
   padding: 18px 30px;
   background-color: var(--primary-color);
   border-radius: 4px;
   color: var(--light-color);
-  
+}
+
+.work-section {
+  margin-top: 90px;
+}
+
+.featured-project {
+  text-align: center;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.container img {
+  max-width: 560px;
+}
+
+.info-about-project {
+  padding-left: 61px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.info-about-project-weather {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 86px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 64px;
+  color: var(--simple-color);
+  padding-bottom: 35px;
+}
+
+.describe-project {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-color);
+  opacity: 70%;
+  padding-bottom: 50px;
+}
+
+.link-view-detail-project {
+  padding: 18px 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.item-dictionary-app {
+  margin-bottom: 90px;
+}
+
+.inquiry {
+  padding: 40px 80px;
+  max-width: 1160px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: var(--backgroundcolor);
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--simple-color);
+  padding-bottom: 10px;
+}
+
+.work-inquiry-descr {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--secondary-color);
+  opacity: 70%;
+}
+
+.button-talk-here {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  padding: 18px 30px;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--light-color);
 }
