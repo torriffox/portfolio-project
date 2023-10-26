@@ -20,7 +20,8 @@ p,
 .link-get-start,
 .link-view-detail-project,
 .work-inquiry-descr,
-.button-talk-here {
+.button-talk-here,
+.mail-to {
   font-family: var(--secondary-font-family);
 }
 
@@ -105,18 +106,20 @@ h6 {
   max-width: 560px;
 }
 
-.info-about-project {
-  padding-left: 61px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
+@media (min-width: 1366px) {
+  .info-about-project {
+    padding-left: 61px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-.info-about-project-weather {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding-right: 86px;
+  .info-about-project-weather {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 86px;
+  }
 }
 
 h3 {
@@ -150,7 +153,7 @@ h3 {
 .inquiry {
   padding: 40px 80px;
   max-width: 1160px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   border-radius: 20px;
   background-color: var(--backgroundcolor);
 }
@@ -179,4 +182,24 @@ h4 {
   font-weight: 500;
   font-size: 18px;
   color: var(--light-color);
+}
+
+.footer {
+  text-align: center;
+}
+
+.mail-to {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--simple-color);
+}
+
+.soc-media {
+  margin-top: 41px;
+  margin-bottom: 41px;
+}
+
+.fa-facebook-f,
+.fa-twitter {
+  padding-right: 33px;
 }
