@@ -16,12 +16,14 @@
 nav,
 h2,
 h6,
+h5,
 p,
 .link-get-start,
 .link-view-detail-project,
 .work-inquiry-descr,
 .button-talk-here,
-.mail-to {
+.mail-to,
+.all-project-link {
   font-family: var(--secondary-font-family);
 }
 
@@ -36,7 +38,7 @@ nav {
   font-size: 16px;
 }
 
-.navbar {
+.navbar-bgcolor {
   background-color: var(--backgroundcolor);
 }
 
@@ -205,4 +207,44 @@ h4 {
 .fa-facebook-f,
 .fa-twitter {
   padding-right: 33px;
+}
+
+.greeting {
+  font-weight: bold;
+  font-size: 64px;
+  color: var(--simple-color);
+  margin-bottom: 30px;
+}
+
+.where-from {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.describe-about {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-color);
+  opacity: 70%;
+  padding-bottom: 40px;
+  padding-right: 60px;
+}
+
+.all-project-link {
+  border-radius: 4px;
+  padding: 18px 30px;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--light-color);
+}
+
+.navbar-about-bgcol {
+  background-color: var(--light-color);
+}
+
+.img-main_photo {
+  border-radius: 15px;
 }
