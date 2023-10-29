@@ -239,6 +239,7 @@ h4 {
   font-weight: 500;
   font-size: 18px;
   color: var(--light-color);
+  margin-bottom: 15px;
 }
 
 .navbar-about-bgcol {
@@ -247,4 +248,8 @@ h4 {
 
 .img-main_photo {
   border-radius: 15px;
+}
+
+.container_about {
+  margin-bottom: 70px;
 }
