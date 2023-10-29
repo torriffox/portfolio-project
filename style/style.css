@@ -252,3 +252,34 @@ h4 {
 .container_about {
   margin-bottom: 70px;
 }
+
+.heading-work {
+  max-width: 825px;
+  padding-top: 80px;
+  padding-left: 90px;
+}
+
+.describe-heading {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.title-work {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--simple-color);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.front-end {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+  opacity: 70%;
+}
+
+.container-work {
+  margin-bottom: 150px;
+}
