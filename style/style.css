@@ -42,10 +42,6 @@ nav {
   background-color: var(--backgroundcolor);
 }
 
-.home {
-  color: var(--primary-color) !important;
-}
-
 .section-navbar {
   color: var(--secondary-color) !important;
   opacity: 70%;
@@ -288,4 +284,18 @@ h4 {
 
 .container-work {
   margin-bottom: 150px;
+}
+
+nav a {
+  color: var(--secondary-color);
+  opacity: 70%;
+}
+
+nav a:hover {
+  color: var(--primary-color) !important  ;
+  transition: all 150ms ease-in-out;
+}
+
+nav a.active{
+  color: var(--primary-color) !important ;
 }
